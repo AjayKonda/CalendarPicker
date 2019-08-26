@@ -171,12 +171,27 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
     weekRow: {
       flexDirection: 'row'
     },
-
     disabledText: {
       fontSize: 14*scaler,
       color: '#BBBBBB',
       alignSelf: 'center',
       justifyContent: 'center'
-    }
+    },
+    disabledStyleText:{
+      fontSize: 14*scaler,
+      color: '#FFF',
+      alignSelf: 'center',
+      justifyContent: 'center',
+      backgroundColor: 'green',
+      borderRadius: getBorderRadiusByShape(scaler, dayShape),
+    },
+    blockedDayWrapper: {
+      width: 30*scaler,
+      height:30*scaler,
+      backgroundColor: 'green',
+      borderRadius: getBorderRadiusByShape(scaler, dayShape),
+      alignSelf: 'center',
+      justifyContent: 'center'
+    },
   };
 }
