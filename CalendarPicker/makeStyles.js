@@ -182,13 +182,13 @@ export function makeStyles(scaler, backgroundColor, textColor, todayBackgroundCo
       color: '#FFF',
       alignSelf: 'center',
       justifyContent: 'center',
-      backgroundColor: 'green',
+      backgroundColor: 'rgb(123, 201, 111)',
       borderRadius: getBorderRadiusByShape(scaler, dayShape),
     },
     blockedDayWrapper: {
       width: 30*scaler,
       height:30*scaler,
-      backgroundColor: 'green',
+      backgroundColor: 'rgb(123, 201, 111)',
       borderRadius: getBorderRadiusByShape(scaler, dayShape),
       alignSelf: 'center',
       justifyContent: 'center'
